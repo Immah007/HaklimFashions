@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haklim | Luxury Redefined</title>
+    <title>Boutique Elegance | Luxury Redefined</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -699,7 +699,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Timeless Elegance, Modern Sophistication</h1>
-            <p>Discover our curated collection of luxury pieces that blend traditional craftsmanship with contemporary design.</p>
+            <p>Discover our curated collection of luxury pieces that blend traditional craftsmanship with contemporary design.(We will adjust any text, colors, fonts and designs on the website to your needs. This is just a preview)</p>
             <a href="#" class="hero-btn">Explore Collections</a>
         </div>
         <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" alt="Luxury boutique interior" class="hero-image">
@@ -709,7 +709,7 @@
     <section class="section">
         <div class="section-title">
             <h2>Featured Collection</h2>
-            <p>Our carefully selected pieces for the season</p>
+            <p>Our carefully selected pieces for the season(Sample of products you may list.Your users can buy your products and securely pay you online here)</p>
         </div>
         
         <div class="products-grid">
@@ -773,7 +773,7 @@
     <section class="testimonials">
         <div class="section-title">
             <h2>Client Testimonials</h2>
-            <p>What our clients say about us</p>
+            <p>What our clients say about us(Your customers can leave reviews on your website. You get to asees tyhem and allow which reviews to show on your website)</p>
         </div>
         
         <div class="testimonials-container">
@@ -857,7 +857,7 @@
         <div class="footer-grid">
             <!-- Column 1 -->
             <div class="footer-col">
-                <h4>Boutique Elegance</h4>
+                <h4>Haklim Fashions</h4>
                 <p>Timeless pieces crafted with passion and precision for the modern connoisseur.</p>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -893,7 +893,7 @@
             
             <!-- Column 4 -->
             <div class="footer-col">
-                <h4>Contact</h4>
+                <h4>Contact(We will put your real contact details here)</h4>
                 <ul class="footer-links">
                     <li><a href="tel:+18005551234">+1 (800) 555-1234</a></li>
                     <li><a href="mailto:info@boutiqueelegance.com">info@boutiqueelegance.com</a></li>
@@ -903,7 +903,7 @@
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2023 Boutique Elegance. All rights reserved.</p>
+            <p>&copy; 2025 Haklim Fashions Inc. All rights reserved.</p>
         </div>
     </footer>
 
@@ -914,8 +914,13 @@
         const mobileMenu = document.querySelector('.mobile-menu');
 
         hamburger.addEventListener('click', () => {
+            if(mobileMenu.classList.contains('active')){
+                 mobileMenu.classList.remove('active');
+            document.body.style.overflow = 'scroll';
+            } else{
             mobileMenu.classList.add('active');
             document.body.style.overflow = 'hidden';
+            }
         });
 
         closeMenu.addEventListener('click', () => {
